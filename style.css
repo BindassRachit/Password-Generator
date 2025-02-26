@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: #1b4965;
+    padding: 2px 0px 2px 5px;
+    color: white;
+}
+
+#logo {
+    padding: 2px 0px 2px 20px;
+    font-size: 3cap;
+    
+}
+#section{
+    margin-left: 50%;
+    padding: 2px 2px 2px 2px;
+    
+}
+ul li{
+    display: inline;
+    font-size: 1.8cap;
+    padding: 5px 20px 5px 20px;
+    
+}
+a{
+    color: white;
+}
+
+/* main section  */
+
+#middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 3.5cap;
+}
+#name{
+    position: relative;
+
+}
+#name-line{
+    font-size: 1cap;
+    position: absolute;
+    margin-top: 80px;
+    font-weight: 100;
+}
+.main{
+    display: flex;
+    min-height: 80vh;
+
+}
+#gentele{
+    margin-left: 10%;  
+    width: 500px;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+    background-size: cover;
+    margin-right: 15%;
+    
+}
+img{
+    width: 500px;
+    height: 600px;
+    
+}
+.slider{
+}
+.box{
+    height: 290px;
+    width: 420px;
+    margin-right: 80px;
+    margin-top: 12%;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+}
+
+#pass-box {
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 2px;
+}
+
+label{
+    user-select: none;
+}
+
+
+#btn {
+    width: 400px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+.para {
+    margin-top: 10px;
+    color: red;
+    font-weight: 540;
+}
+#paragraph{
+
+}
+#btn:hover{
+    background-color: rgb(38, 239, 38);
+    color: white;
+}
+
+
+#privacy{
+    background-color: #bbe0f7;
+    
+    height: 600px;
+    width: 100%;
+}
+#password_strong{
+    font-size: 5cap;
+    text-align: center;
+    padding-top: 40px;
+}
+#partision{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#long{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(252, 244, 244);
+    margin-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+#secure{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(252, 244, 244);
+    margin-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+#unique{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(252, 244, 244);
+    margin-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+i{
+    padding-top: 30px;
+    font-size: 70px;
+    
+}
+.partision-heading{
+    font-size: 3cap;
+    padding-top: 10px;
+}
+.partision-paragraph{
+    padding-top: 10px;
+    font-size: 2cap;
+}
+#details{
+    height: 70%;
+    width: 100%;
+    padding: 10px 220px 150px 220px;
+    font-size: 25px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.about{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.ab-par{
+    font-size: 25px;
+    padding: 10px 15px;
+    font-weight: lighter;
+}
+summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+summary::after {
+    content: '';
+    width: 18px;
+    height: 10px;
+    background: url('https://uploads.sitepoint.com/wp-content/uploads/2023/10/1697699669arrow.svg') no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+}
+.about :hover{
+    color: #f06c00;
+
+}
+.ab-heading{
+    font-size: 2cap;
+    font-weight: 400;
+}
+
+
+
+/* footer */
+/* styles.css */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    height: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    width: 250px;
+    height: 50px; /* Adjust the logo size as needed */
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+}-

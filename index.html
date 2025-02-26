@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <h2 id="logo">
+                Passward Generator
+            </h2>
+            <ul id="section">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="middle">
+            <h2 id="name">Random Passward Generator</h2>
+            <h3 id="name-line">
+                Create strong and secure passwords to keep your account safe online.
+            </h3>
+        </div>
+        
+    
+        <div class="main">
+            <div id="gentele">
+                <img src="veryweek.svg" id="slider1" alt="veryweek">
+                <img src="week.svg" id="slider2" alt="week">
+                <img src="good.svg" id="slider3" alt="good">
+                <img src="verygood.svg" id="slider4" alt="strong">
+                <img src="verystrong.svg" id="slider5" alt="verystrong">
+            </div>
+            <div class="box">
+                <span id="pass-box">Testing</span>
+                <div class="row">
+                    <div class="left">
+                        Passward Length
+                    </div>
+                    <div class="right">
+                        <input type="number" name="" id="total-char" max="20" min="2" value="5" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label for="upper-case">
+                        <div class="left">
+                            UpperCase
+                        </div>
+                    </label>
+                    <div class="right">
+                        <input type="checkbox" name="" id="upper-case" checked />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label for="lower-case">
+                        <div class="left">
+                            LowerCase
+                        </div>
+                    </label>
+                    <div class="right">
+                        <input type="checkbox" name="" id="lower-case" checked />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label for="number">
+                        <div class="left">
+                            Number
+                        </div>
+                    </label>
+                    <div class="right">
+                        <input type="checkbox" name="" id="number" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label for="symbol">
+                        <div class="left">
+                            Symbol
+                        </div>
+                    </label>
+                    <div class="right">
+                        <input type="checkbox" name="" id="symbol" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="btnnext">
+                        <button id="btn">
+                            Generate
+                    </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="para">
+                        <p id="paragraph">Very Easy Passward </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="privacy">
+            <h3 id="password_strong">What makes a password strong?</h3>
+            <div id="partision">
+                <div id="long">
+                    <i class="fa-solid fa-lock" style="color: #f06c00;"></i>
+                    <h4 class="partision-heading">Strong</h4>
+                    <p class="partision-paragraph">Strong passwords use a combination of letters, numbers, cases, and symbols to form an unpredictable string of characters that doesn't resemble words or names.</p>
+                </div>
+                <div id="secure">
+                    <i class="fa-solid fa-fingerprint" style="color: #f06c00;"></i>
+                    <h4 class="partision-heading">Secure</h4>
+                    <p class="partision-paragraph">The longer a password, the more secure it is. A strong password should be at least 10 characters long.</p>
+                </div>
+                <div id="unique">
+                    <i class="fa-solid fa-key" style="color: #f06c00;"></i>
+                    <h4 class="partision-heading">Unique</h4>
+                    <p class="partision-paragraph">A strong password should be unique to each account to reduce vulnerability in the event of a hack.</p>
+                </div>
+            </div>
+        </div>
+        <div id="details">
+            <h2>Frequently asked questions</h2>
+            <details class="about">
+                <summary> 
+                    <h4 class="ab-heading">How does the password generator work?</h4>
+                </summary>
+                <p class="ab-par">The LastPass password generator creates random passwords based on parameters set by you. Parameters include password length, whether the password should be easy to say or read, and whether the password should have uppercase letters, lowercase letters, numbers, and symbols.
+    
+                The password generated, based on the user's parameters, is then checked against the zxcvbn library – a standard in evaluating password security – to see how strong the password you generate is.</p>
+            </details>
+            <details class="about">
+                <summary> 
+                    <h4 class="ab-heading">Can a strong password be hacked?</h4>
+                </summary>
+                <p class="ab-par">While a strong password can be technically hacked, it would take an imperceivable amount of time to do so. A recent report found that a 12-character password made only of numbers would take just 25 seconds to hack. Compare that to a 12-character password made up of numbers, uppercase and lowercase letters, and symbols, and the amount of time it would take to hack increases to 34,000 years. So a strong password won’t be hackable in your lifetime. Read more in the infographic.</p>
+            </details>
+            <details class="about">
+                <summary> 
+                    <h4 class="ab-heading">Can I use the password generator to create a user name?</h4>
+                </summary>
+                <p class="ab-par">You should use the LastPass username generator tool to create a secure username. It ensures you get a random, unique username that exists only of uppercase and lowercase letters.</p>
+            </details>
+            <details class="about">
+                <summary> 
+                    <h4 class="ab-heading">How do you manage your passwords with a password manager?</h4>
+                </summary>
+                <p class="ab-par">Managing passwords in the LastPass password manager is simple. Every time you save a password to your LastPass account, it is stored inside of your password vault – an encrypted space that only you can see and access. You can manage your passwords by simply accessing your password vault and searching for the credential you need. And with the LastPass browser extension and app, you can seamlessly save and autofill passwords while on your computer, smartphone, or tablet.</p>
+            </details>
+            <details class="about">
+                <summary> 
+                    <h4 class="ab-heading">Is LastPass password generator safe?</h4>
+                </summary>
+                <p class="ab-par">Yes. The LastPass password generator creates random, secure passwords based on the parameters defined by you. Any password generated is tested against the industry-standard zxcvbn library to determine how strong the password you generate is.
+
+                Lastly, once you save the password you generated to your password vault, it is automatically encrypted and stored so only you can access it and see it.</p>
+            </details>
+            <details class="about">
+                <summary> 
+                    <h4 class="ab-heading">Is the functionality different in the online generator and in the LastPass app?</h4>
+                </summary>
+                <p class="ab-par">No. The browser and in-app password generator function the same. The only difference is that the in-app generator will also autofill and save the created password for you. Whereas with the online generator, you must copy your password and paste it into the necessary form field.</p>
+        </div>
+    </main>
+
+     <!-- footer section  -->
+     <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo.png" alt="Your Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+            <p>Contact: rachitgupta@98977gmail.com</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
